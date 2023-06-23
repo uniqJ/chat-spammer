@@ -22,8 +22,8 @@
 		        © un1q 2023
 		
 --]]
-local steamworks = require "vip/steamworks"
-local http = require "vip/http"
+local steamworks = require "gamesense/steamworks"
+local http = require "gamesense/http"
 local ffi = require "ffi"
 local ISteamMatchmaking = steamworks.ISteamMatchmaking
 local GetClipboardTextCount = vtable_bind('vgui2.dll', 'VGUI_System012', 7, 'int(__thiscall*)(void*)')
